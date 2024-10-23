@@ -1,0 +1,285 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Times New Roman', Times, serif ; 
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 57px;
+    width: 110px;
+
+}
+.logo{
+    background-image: url(amazon_logo.png);
+    height: 58px;
+    width: 110px;
+    background-size: cover;
+}
+
+.border{
+    border: 1px solid transparent;
+}
+
+.border:hover{
+    border: 1px solid white;
+}
+
+/* box 2 */
+
+.add-first{
+    font-size: 0.80rem;
+    margin-left: 8px;
+    font-weight: 400;
+}
+.add-icon{
+    display: flex;
+}
+.add-second{
+    font-size: 1rem;
+    margin-left:8px;
+    font-weight: 600;
+}
+
+
+/* box 3 */
+
+.nav-sear{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 4px;
+    border: none;
+}
+
+
+.nav-sel {
+    /* margin-left: 8px;  */
+    width: 50px;
+    background-color: #f3f3f3;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.nav-place{
+  border-radius: 1%;
+  width: 500px;
+  height: 26px;
+  border: none;
+ padding-left: 5px;
+ font-size: 1rem;
+}
+
+.search-icon {
+    width: 35px;
+    color: black;
+    background-color: rgb(234, 137, 10);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding-top: 3px;   
+}
+
+.nav-sear:hover{
+    border: 2px solid orange;
+}
+
+/* box 4 */
+.signin{
+ font-size: 0.85rem;
+ padding: 2.5px;
+}
+.nav-second{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+
+
+/* taskbar */
+
+.taskbar{
+    display: flex;
+    height: 42px;
+    background-color: #161b1a;
+    color: aliceblue;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+.menu{
+    width: 50px;
+  display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.options{
+   font-size: 0.85rem;   
+    width: 70%;
+    display: flex;
+    
+}
+.options p{
+    margin-left: 18px;
+}
+.deals{
+    font: 0.9rem;
+    font-weight: 700;    
+}
+
+
+
+/* slider and message */
+
+
+.slide {
+    height: 350px;
+    background-image: url(hero_image.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.msg{
+    height: 35px;
+    width: 80%;
+    margin-top: 200px;
+    background-color: azure;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+       display: flex;
+       margin-bottom: 35px;
+    
+}
+
+.msg a{
+    color: rgb(215, 83, 7);
+    text-decoration: none;
+    margin-left: 5px;
+    font-weight: 700;
+}
+
+
+/* main content */
+
+.main {
+    width: 100%;
+    height: 420px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(151, 162, 162);
+    flex-wrap: wrap;
+}
+
+.box4 {
+    /* border: 2px solid black; */
+    height: 95%;
+    width: 23%;
+    background-color: beige;
+   margin-top: 17px;
+   border-radius: 2px;
+
+}
+
+.bxcnt{
+    margin: 10px;
+    font-size: 1rem;
+}
+.bxcnt p{
+   color: rgb(228, 120, 3);
+}
+.boximg{
+    height: 280px;
+    margin-top: 10px; 
+    margin-bottom: 25px;
+    background-size: cover;
+   
+}
+
+/* footer */
+
+
+.panel{
+    
+    height: 50px;
+    width: 100%;
+    background-color: #262a29;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.panel2 {
+
+    height: 280px;
+    width: 100%;
+    background-color: #0f0e0d;
+    font-size: 0.85rem;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    color: white;
+}
+.panel2 u{
+    text-decoration: none;
+    margin-top: 55px;
+}
+.panel2 p{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.panel2 a{
+    display: flex;
+    text-decoration: none;
+    color: #dddddd;
+    margin-top: 2px;
+}
+
+.line{
+    height: 100px;
+        width: 100%;
+        background-color: #0f0e0d;
+        border-top: 0.5px solid white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.pages{
+    height: 60px;
+    background-color: #262a29;
+    color: white;
+    padding: 15px;
+    font-size: 0.75rem;
+    text-align: center;
+   
+}
+.page{
+    justify-content: center;
+    display: flex;   
+}
+.page p{
+    margin-left: 8px;
+}
+.copyright{
+        padding-top: 8px;
+}
+
+
+
